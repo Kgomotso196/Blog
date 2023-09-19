@@ -1,2 +1,8 @@
+# frozen_string_literal: true
+
+# The `ApplicationHelper` module contains methods that can be used
+# across the entire application. These helper methods provide common
+# functionalities and utilities that can be shared across views
+# and controllers.
 class ApplicationController < ActionController::Base
 end
