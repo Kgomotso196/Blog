@@ -15,7 +15,9 @@ module Blog
   # for the Rails application.
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    require 'dotenv/rails-now'
     config.load_defaults 7.0
+    Dotenv::Railtie.load
 
     # Configuration for the application, engines, and railties goes here.
     #
