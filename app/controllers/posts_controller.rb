@@ -8,6 +8,6 @@ class PostsController < ApplicationController
   def show; end
 
   def set_post
-    @posts = Post.find(params[:id])
+    @post = Post.find(params[:id])
   end
 end
