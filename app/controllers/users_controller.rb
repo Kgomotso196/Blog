@@ -8,6 +8,6 @@ class UsersController < ApplicationController
   def show; end
 
   def set_user
-    @users = User.find(params[:id])
+    @user = User.find(params[:id])
   end
 end
