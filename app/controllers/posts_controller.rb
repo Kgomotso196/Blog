@@ -6,9 +6,7 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
-  def show
-    @user_posts = @user.posts
-  end
+  def show; end
 
   def new
     @posts = Post.new
@@ -26,11 +24,11 @@ class PostsController < ApplicationController
   end
 
   def set_user
-    @user = User.find(params[:user_id])
+    @users = User.find(params[:user_id])
   end
 
   def set_post
-    @post = Post.find(params[:id])
+    @posts = Post.find(params[:id])
   end
 
   def post_params
