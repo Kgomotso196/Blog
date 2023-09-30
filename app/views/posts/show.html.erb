@@ -1,17 +1,28 @@
+<%= content_for :title, "#{truncate(@posts.title, length: 20)} | " %>
+
+<div class='post_actions-p'>
+  <%= render 'shared/button', btnName: 'New post +', btnClass: 'btn btn_cta btn_cta_new', btnPath: new_user_post_path(@users) %>
+</div>
+
 <div class='post_details'>
   <div class='post_details_header'>
-    <h1><%= link_to @post.title, user_post_path(@user, @post), class: 'post_details_title' %></h1>
-    <p class='post_card_counters'>Comments: <%= @post.comments_counter %> | Likes: <%= @post.likes_counter %></p>
+    <h1><%= link_to @posts.title, user_post_path(@users, @posts), class: 'post_details_title' %></h1>
+    <p class='post_card_counters'>Comments: <%= @posts.comments_counter %> | Likes: <%= @posts.likes_counter %></p>
   </div>
 
-  <p class='post_details_text'><%= @post.text %></p>
+  <p class='post_details_text'><%= @posts.text %></p>
+
+  <div class='post_details_actions'>
+    <%= render 'shared/button', btnName: 'Add comment', btnPath: new_user_post_comment_path(@users, @posts), btnClass: 'btn btn_interact' %>
+    <%= render 'shared/form', model: @like, url: user_post_likes_path(@users, @posts), fields: [] %>
+  </div>
 </div>
 
 <ul class='post_comment_list'>
-  <% if @post.comments.empty? %>
+  <% if @posts.comments.empty? %>
     <p class='comment_empty-message'>No comments yet!</p>
   <% else %>
-    <% @post.comments.each do |comment| %>
+    <% @posts.comments.each do |comment| %>
       <li class='post_comment_list_item'>
         <%= render 'shared/comment_card', comment: comment %>
       </li>
