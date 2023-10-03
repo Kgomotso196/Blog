@@ -133,6 +133,11 @@ You can deploy this project using: **Heroku**
 - Twitter: [Troos](https://twitter.com/t_r_o_o_s_)
 - LinkedIn: [Troos](https://linkedin.com/in/kgomotso-nacane)
 
+👤 **Munana Clinton**
+
+- GitHub: [@githubhandle](https://github.com/clin2on3mun)
+- Twitter: [@twitterhandle](https://twitter.com/ClintonMunana)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/munana-clinton/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
