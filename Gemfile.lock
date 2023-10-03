@@ -301,17 +301,17 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.8)
   rails-controller-testing
-  rspec-rails (~> 6.0, >= 6.0.3)
+  rspec-rails
   rubocop (>= 1.0, < 2.0)
   sass-rails
   selenium-webdriver
-  shoulda-matchers (~> 5.3)
+  shoulda-matchers
   sprockets-rails
   stimulus-rails
   turbo-rails
   tzinfo-data
   web-console
-  webdrivers (~> 5.0)
+  webdrivers
 
 RUBY VERSION
    ruby 3.1.4p223

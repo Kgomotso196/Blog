@@ -9,7 +9,7 @@ require 'rspec/rails'
 require 'shoulda/matchers'
 
 require 'webdrivers/chromedriver'
-Webdrivers::Chromedriver.required_version = 'latest'
+# Webdrivers::Chromedriver.required_version = 'latest'
 
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
