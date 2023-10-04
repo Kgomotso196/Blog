@@ -38,6 +38,16 @@ RSpec.describe 'User posts', type: :system, js: true do
       expect(page).to have_css("img[src*='https://picsum.photos/200/300']")
       expect(page).to have_content(@mark.name)
       expect(page).to have_content("Posts: #{@mark.postsCounter}")
+
+      # Checks if usernames of commenters are displayed
+      @mark_post1.most_recent_five_comments.each do |comment|
+        expect(page).to have_content(comment.author.name)
+      end
+
+      # Checks if comments left by commenters are displayed
+      @mark_post1.most_recent_five_comments.each do |comment|
+        expect(page).to have_content(comment.text)
+      end
     end
 
     it 'should render user posts information' do
