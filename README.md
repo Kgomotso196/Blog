@@ -10,7 +10,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -124,7 +123,7 @@ You can deploy this project using: **Heroku**
 👤 **Kgomotso (Troos) Nacane**
 
 - GitHub: [Troos](https://github.com/Kgomotso196)
-- Twitter: [Troos](https://twitter.com/t_r_o_o_s_)
+- Twitter: [Troos](https://twitter.com/t_r_o_o_s)
 - LinkedIn: [Troos](https://linkedin.com/in/kgomotso-nacane)
 
 👤 **Munana Clinton**
