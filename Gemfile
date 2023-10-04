@@ -80,3 +80,6 @@ group :test do
   gem 'selenium-webdriver', '4.10.0'
   gem 'webdrivers'
 end
+
+gem 'devise', '~> 4.9'
+gem 'mailcatcher'
