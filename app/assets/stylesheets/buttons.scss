@@ -13,7 +13,7 @@
     --hover: var(--dark-grey);
     --active: var(--dark);
     --color: var(--white);
-    --bg-color: var(--dark);
+    --bg-color: var(--khaki);
 
     padding: 0.5rem 1rem;
     color: var(--color);
@@ -45,7 +45,7 @@
     padding: 0.25rem 0.5rem;
 
     &:hover {
-      background-color: var(--grey);
+      background-color: var(--khaki);
       color: var(--dark);
     }
   }

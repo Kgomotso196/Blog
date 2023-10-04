@@ -63,12 +63,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Not available yet..
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -133,6 +127,11 @@ You can deploy this project using: **Heroku**
 - Twitter: [Troos](https://twitter.com/t_r_o_o_s_)
 - LinkedIn: [Troos](https://linkedin.com/in/kgomotso-nacane)
 
+👤 **Munana Clinton**
+
+- GitHub: [@githubhandle](https://github.com/clin2on3mun)
+- Twitter: [@twitterhandle](https://twitter.com/ClintonMunana)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/munana-clinton/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
