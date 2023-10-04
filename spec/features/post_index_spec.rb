@@ -5,7 +5,7 @@ RSpec.describe 'User posts', type: :system, js: true do
     @elon = User.create(name: 'Elon', photo: 'https://picsum.photos/200/300',
                         bio: 'Innovation is my passion. CEO of Tesla and SpaceX.')
 
-    @mark = User.create(name: 'Mark', photo: '/assets/default_user.png',
+    @mark = User.create(name: 'Mark', photo: 'https://picsum.photos/200/300',
                         bio: 'Connecting the world. CEO of Facebook (Meta).')
 
     @elon_post1 = Post.create(title: 'Revolutionizing Transportation', text: 'Electric cars are the future!',
@@ -35,7 +35,7 @@ RSpec.describe 'User posts', type: :system, js: true do
     end
 
     it 'should render posts author information' do
-      expect(page).to have_css("img[src*='/assets/default_user.png']")
+      expect(page).to have_css("img[src*='https://picsum.photos/200/300']")
       expect(page).to have_content(@mark.name)
       expect(page).to have_content("Posts: #{@mark.postsCounter}")
     end

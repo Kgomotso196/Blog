@@ -7,11 +7,12 @@
 <% end %>
 
 <%= link_to user, class: user_card_class do %>
-    <div class='user_card_photo'>
-     </div>
+  <div class='user_card_photo'>
+    <%= image_tag(user.photo, alt: user.name, onerror: "replaceWithDefaultImage(this,'https://picsum.photos/200/300')") %>
+  </div>
 
-    <div class=user_card_text>
-      <h2><%= user.name%></h2>
-      <p>Posts: <%= user.postsCounter%></p>
-    </div>
+  <div class=user_card_text>
+    <h2><%= user.name%></h2>
+    <p>Posts: <%= user.postsCounter%></p>
+  </div>
 <% end %>
