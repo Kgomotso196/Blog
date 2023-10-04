@@ -42,12 +42,10 @@ RSpec.describe 'User posts', type: :system, js: true do
       # Checks if usernames of commenters are displayed
       @mark_post1.most_recent_five_comments.each do |comment|
         expect(page).to have_content(comment.author.name)
+        expect(page).to have_content(comment.text)
       end
 
       # Checks if comments left by commenters are displayed
-      @mark_post1.most_recent_five_comments.each do |comment|
-        expect(page).to have_content(comment.text)
-      end
     end
 
     it 'should render user posts information' do
